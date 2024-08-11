@@ -1,0 +1,11 @@
+<!-- res/menu/menu_main.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_cancel"
+        android:title="Cancel"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_revert"
+        android:iconTint="@android:color/white"
+        android:actionLayout="@layout/custom_menu"/>
+</menu>

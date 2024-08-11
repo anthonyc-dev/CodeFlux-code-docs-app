@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/darkyellow"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/one"
+            android:layout_width="wrap_content"
+            android:src="@drawable/gray_menu_24"
+            android:padding="16dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_toEndOf="@+id/one"
+            android:layout_width="wrap_content"
+            android:text="Code Flux"
+            android:padding="16dp"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/left"
+            android:layout_width="wrap_content"
+            android:src="@drawable/gray_search_24"
+            android:padding="16dp"
+            android:layout_alignParentEnd="true"
+            android:layout_height="wrap_content"/>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

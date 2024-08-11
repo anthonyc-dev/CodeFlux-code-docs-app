@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user_profile">
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/one"
+        android:layout_width="match_parent"
+        android:background="@color/teal_700"
+        android:layout_height="330dp">
+
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/img"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_centerInParent="true"
+            android:adjustViewBounds="true"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/avatar"
+            app:shapeAppearanceOverlay="@style/RoundedImageView"
+            app:strokeColor="@color/colorWhite"
+            app:strokeWidth="3dp" />
+
+
+        <ImageView
+            android:id="@+id/cambtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="215dp"
+            android:layout_marginTop="180dp"
+            android:background="@drawable/circle_with_stroke"
+            android:padding="10dp"
+            android:src="@drawable/ic_menu_camera" />
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_below="@+id/img"
+            android:layout_width="wrap_content"
+            android:text="kajdkasd"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_below="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:text="I want to become Software Engineer"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"/>
+
+
+    </RelativeLayout>
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/one"
+        android:layout_height="match_parent"
+        tools:context=".SettingsFragment">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+
+            <Switch
+                android:id="@+id/darkModeSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/dark_mode"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/better_for_eyesight_battery_life"
+                android:textSize="12dp" />
+
+
+            <LinearLayout
+                android:id="@+id/clear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="20dp"
+                    android:text="Clear Cache"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    app:drawableEndCompat="@drawable/delete_24"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:text="Free up 14.8 MB of space"
+                    android:textSize="12dp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/privatePo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="18dp"
+                    android:text="@string/privacy_policy"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:text="@string/app_terms_and_policies"
+                    android:textSize="12dp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/about"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="16dp"
+                    android:text="About"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+
+                    android:text="@string/app_info_and_build_version"
+                    android:textSize="12dp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+
+</RelativeLayout>

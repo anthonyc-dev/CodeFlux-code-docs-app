@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- Title TextView -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black" />
+
+    <!-- ScrollView for the messages -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- First message -->
+        <TextView
+            android:id="@+id/messageTextView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:text="Your first long message goes here." />
+
+        <!-- Second message -->
+        <TextView
+            android:id="@+id/messageTextView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:text="Your second long message goes here." />
+
+        <!-- Add more TextView elements for additional messages if needed -->
+
+    </LinearLayout>
+</ScrollView>
+
+    </LinearLayout>

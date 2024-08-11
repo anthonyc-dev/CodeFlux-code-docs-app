@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="myColor">#0D0D23</color>
+    <color name="green">#06B600</color>
+    <color name="darkMode">#1D1D1D</color>
+    <color name="Trans">@android:color/transparent</color>
+    <color name="darkgray">#5C5B5B</color>
+
+    <color name="darkyellow">#D5B60A</color>
+
+
+    <color name="colorPrimary">#FF7F50</color>
+    <color name="colorPrimaryDark">#373331</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="gray">#8E8B8B</color>
+
+    <color name="purple_200">#50C2C9</color>
+    <color name="purple_500">#50C2C9</color>
+    <color name="purple_700">#50C2C9</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    //onboarding colors
+    <color name="background">#F0F4F3</color>
+    <color name="buttontext">#50C2C9</color>
+    //indicator color
+    <color name="inactive">#C4C4C4</color>
+    <color name="active">#50C2C9</color>
+</resources>

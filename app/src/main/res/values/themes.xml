@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CodeFlux" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/darkyellow</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/white</item>
+<!--        <item name="android:background">@color/white</item>-->
+<!--        <item name="android:backgroundTint">@color/white</item>-->
+
+    </style>
+
+    <style name="Theme.CodeFlux" parent="Base.Theme.CodeFlux" />
+
+    <style name="Theme.CodeFlux.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.CodeFlux.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.CodeFlux.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+
+</resources>

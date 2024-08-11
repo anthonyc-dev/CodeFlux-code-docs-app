@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Code Flux</string>
+
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="search_menu">Search Menu</string>
+    <string name="upcomming_languages">Upcoming soon</string>
+    <string name="available_languages">Available Languages</string>
+
+
+    <string name="disc1">Read, Learn, Code</string>
+    <string name="disc2">Elevate Your Coding Skills with Every Page</string>
+    <string name="disc3">Crafting your skill with Code Flux</string>
+    <string name="_2024_microflux_all_rights_reserved">2024 © MicroFlux All rights reserved</string>
+    <string name="version_5_0_0">Version 5.0.0</string>
+    <string name="cde_flux">Code Flux</string>
+    <string name="app_info_and_build_version"><![CDATA[App info & build version]]></string>
+    <string name="app_terms_and_policies"><![CDATA[App Terms & Policies]]></string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="this_privacy_policy_describes_how_code_flux_our_collects_uses_and_discloses_information_when_you_use_our_mobile_application_code_flux">This Privacy Policy describes how Code Flux our collects, uses, and discloses information when you use our mobile application Code Flux.</string>
+    <string name="we_do_not_collect_any_personally_identifiable_information_from_users_of_our_service">We do not collect any personally identifiable information from users of our Service.</string>
+    <string name="text_one">We may collect information that your mobile device sends whenever you use our Service (\"Log Data\"). This Log Data may include information such as your device\'s Internet Protocol (\"IP\") address, device name, operating system version, the configuration of the app when utilizing our Service, the time and date of your use of the Service, and other statistics.</string>
+    <string name="we_do_not_use_cookies_or_similar_tracking_technologies_to_track_the_activity_on_our_service">We do not use cookies or similar tracking technologies to track the activity on our Service.</string>
+    <string name="text_two">We want to inform users of this Service that these third parties may have access to your Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.</string>
+    <string name="text_three">We value your trust in providing us with your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.</string>
+    <string name="text_four">This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by us. Therefore, we strongly advise you to review the Privacy Policy of these websites. We have no control over, and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.</string>
+    <string name="text_five">Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13. In the case we discover that a child under 13 has provided us with personal information, we immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us so that we will be able to take the necessary actions.</string>
+    <string name="text_six">We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately after they are posted on this page.</string>
+    <string name="text_seven">If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us.</string>
+    <string name="better_for_eyesight_battery_life"><![CDATA[Better for eyesight & battery life]]></string>
+
+
+</resources>
