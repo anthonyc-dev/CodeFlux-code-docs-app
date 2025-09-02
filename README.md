@@ -55,8 +55,8 @@ To learn more about the technologies used in this project, check out the followi
 
 Contributions are welcome! If you have suggestions for improvements or want to report a bug, please open an issue or submit a pull request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+---
+## Credits
+- Developed by **[Anthony Crausus](https://github.com/anthonyc-dev)**
 
 ---
